@@ -2,33 +2,55 @@
 <html lang="b">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seasite - Sealand Projects</title>
-    
-    <script src="https://kit.fontawesome.com/1d3a636e33.js" crossorigin="anonymous"></script>
-  <script type="module" crossorigin src="./assets/index-717337a5.js"></script>
-  <link rel="stylesheet" href="./assets/index-95fe7da0.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seasite - Sealand Projects</title>
+  
+  <script src="https://kit.fontawesome.com/1d3a636e33.js" crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="./assets/index-70d981f0.js"></script>
+  <link rel="stylesheet" href="./assets/index-88bb47b2.css">
 </head>
 
 <body>
-   <div id="info" class="info">
-    <a href="https://www.sealand-projects.com/" target="_blank" rel="noopener"><img src="./assets/Seasite Sealand-Projects-Logo_2-9b5df59e.png" width="200" 
-      height="100"></a>
-    </div>
-    
-    <div id="controls" class="controls">
-      <span class="hidden gamepad"><i class="fa-solid fa-gamepad"></i></span>
-      <div class="controlstext"><p><b>CONTROLS</b>: <b>WASD</b> move, <b>R|F</b> up | down, <b>Q|E</b> roll, <b>HOLD LMB</b></b> pitch and yaw</p></div>
-      <div class="toggle">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </div>
+  <div id="info" class="info">
+    <a href="https://www.sealand-projects.com/" target="_blank" rel="noopener"><img
+        src="./assets/Seasite Sealand-Projects-Logo_2-9b5df59e.png" width="200" height="100"></a>
+  </div>
 
-    <div id="container"></div>
+  <div class="home">
+    <div class="homebutton"><i class="fa-solid fa-house"></i></div>
+  </div>
 
-	
+  <div id="controls" class="controls current">
+    <span class="gamepad"><i class="fa-solid fa-gamepad"></i></span>
+    <div class="hidden controlstext">
+      <p><b>CONTROLS</b>: <b>WASD</b> move, <b>R|F</b> up | down, <b>Q|E</b> roll, <b>HOLD LMB</b></b> pitch and yaw</p>
+    </div>
+    <div class="hidden toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </div>
+
+  <div class="login">
+    <div class="loginbutton"><i class="fa-solid fa-user"></i></div>
+  </div>
+
+  <div class="overlay minimise">
+    <div class="toggleoverlay"><i class="fa-solid fa-bars"></i></div>
+    <div class="textoverlay hidden">
+      <h2>Mooring Line Composition</h2>
+    </div>
+    <div class="horizontal-group hidden">
+      <div class="button buttonleft"><i class="fa-solid fa-circle-left"></i></div>
+      <div class="button buttonright"><i class="fa-solid fa-circle-right"></i></div>
+    </div>
+    <div class="mooring-image hidden"><img src="./assets/mooring-makeup-b7909ead.png" width="900" height="200"></div>
+  </div>
+
+  <div id="container"></div>
+
+  
   <script src="./toggle.js"></script>
 </body>
 
