@@ -8,8 +8,8 @@
   <title>Seasite - Sealand Projects</title>
   
   <script src="https://kit.fontawesome.com/1d3a636e33.js" crossorigin="anonymous"></script>
-  <script type="module" crossorigin src="./assets/index-70d981f0.js"></script>
-  <link rel="stylesheet" href="./assets/index-88bb47b2.css">
+  <script type="module" crossorigin src="./assets/index-9b4d5138.js"></script>
+  <link rel="stylesheet" href="./assets/index-057f2227.css">
 </head>
 
 <body>
@@ -22,6 +22,10 @@
     <div class="homebutton"><i class="fa-solid fa-house"></i></div>
   </div>
 
+  <div class="editmode">
+    <div class="editbutton" onclick="updateCameraControls()"><i class="fa-solid fa-gears"></i></div>
+  </div>
+
   <div id="controls" class="controls current">
     <span class="gamepad"><i class="fa-solid fa-gamepad"></i></span>
     <div class="hidden controlstext">
@@ -32,9 +36,29 @@
     </div>
   </div>
 
-  <div class="login">
+  <div class="login minimiselogin">
+    <div class="logincontainer hidden">
+        <label class="close-btn fas fa-times"></label>
+        <div class="text">Login Form</div>
+        <form action="#">
+            <div class="data">
+                <label>Email</label>
+                <input type="text" required>
+            </div>
+            <div class="data">
+                <label>Password</label>
+                <input type="password" required>
+            </div>
+            <div class="forgot-pass"><a href="#">Forgot Password?</a></div>
+            <div class="btn">
+                <div class="inner"></div>
+                <button type = "submit">login</button>
+            </div>
+            <div class="signup-link">Need an account? <a href="#"> Signup now</a></div>
+        </form>
+    </div>
     <div class="loginbutton"><i class="fa-solid fa-user"></i></div>
-  </div>
+</div>
 
   <div class="overlay minimise">
     <div class="toggleoverlay"><i class="fa-solid fa-bars"></i></div>
